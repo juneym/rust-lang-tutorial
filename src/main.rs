@@ -19,4 +19,7 @@ fn main() {
     //placeholder traits + positional
     println!("Binary: {0:b} Hexadecimal: {1:x} Octal: {0:o}", 11, 10);
 
+    //placeholder traits + named args
+    println!("Binary: {first:b} Hexadecimal: {second:x} Octal: {third:o}",  first=11, second=10, third=30);
+
 }
