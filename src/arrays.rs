@@ -19,4 +19,13 @@ pub fn run() {
     //arrays are stacked allocated
     println!("This numbers array occupies {} bytes", mem::size_of_val(&numbers));
 
+    //get a slice
+    let slice: &[i32] = &numbers;
+
+    println!("slice: {:?}", slice);
+
+    let slice2: &[i32] = &numbers[1..2];
+
+    println!("slice2: {:?}", slice2);
+
 }
