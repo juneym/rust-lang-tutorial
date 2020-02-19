@@ -2,6 +2,7 @@ mod print;
 mod vars;
 mod types;
 mod strings;
+mod tuples;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -41,4 +42,6 @@ fn main() {
 
     //strings
     strings::run();
+
+    tuples::run();
 }
