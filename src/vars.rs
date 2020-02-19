@@ -11,4 +11,9 @@ pub fn run()
 
     age = 38;
     println!("My name is {} and I am {}", name, age);
+
+    //define constants
+    const ID: i32 = 001;
+
+    println!("ID is {}", ID);
 }
