@@ -1,6 +1,7 @@
 mod print;
 mod vars;
 mod types;
+mod strings;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -37,4 +38,7 @@ fn main() {
 
     //types
     types::run();
+
+    //strings
+    strings::run();
 }
