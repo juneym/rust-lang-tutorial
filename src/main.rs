@@ -22,4 +22,8 @@ fn main() {
     //placeholder traits + named args
     println!("Binary: {first:b} Hexadecimal: {second:x} Octal: {third:o}",  first=11, second=10, third=30);
 
+    //Placeholder for debug trait  - sample tuple
+    println!("{:?}", (12, true, "hello"));
+
+
 }
