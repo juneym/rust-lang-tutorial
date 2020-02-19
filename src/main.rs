@@ -4,5 +4,5 @@ fn main() {
     println!("Hello, world from main.rs");
     print::run();
 
-    println!("Number is {}", 1);
+    println!("{} is from {}", "Brad", "Los Angeles");
 }
