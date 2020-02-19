@@ -1,4 +1,5 @@
 mod print;
+mod vars;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -29,4 +30,6 @@ fn main() {
     println!("10 + 10 equals {}", 10 + 10);
 
 
+    //vars
+    vars::run();
 }
