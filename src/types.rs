@@ -23,4 +23,8 @@ pub fn run() {
 
      let is_active:bool = true;
      println!("{:?}", is_active);
+
+     //character (unicode)
+     let a1 = 'a';
+     println!("a1 is {:?}", a1);
 }
