@@ -21,4 +21,6 @@ pub fn run() {
      println!("max of i32 is {}", std::i32::MAX);
      println!("max of i64 is {}", std::i64::MAX);
 
+     let is_active:bool = true;
+     println!("{:?}", is_active);
 }
