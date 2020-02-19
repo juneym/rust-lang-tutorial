@@ -7,7 +7,7 @@ pub fn run()
     
     //primitive
 
-    let mut hello = String::from("Hello");
+    let mut hello = String::from("Hello ");
 
     println!("hello is {} and then length is {}", hello, hello.len());
 
@@ -20,4 +20,17 @@ pub fn run()
     hello.push_str("orld");
 
     println!("hello is {} and then length is {}", hello, hello.len());
+
+    println!("Capacity is {}", hello.capacity());
+
+    println!("is empty: {:?} ", hello.is_empty());
+
+    println!("Contains world: {}", hello.contains("world"));
+
+    println!("Replace world with there: {}", hello.replace("world", "there"));
+
+    //loop through string by whitespace
+    for word in hello.split_whitespace() {
+        println!("{}", word);
+    }
 }
