@@ -26,5 +26,6 @@ pub fn run() {
 
      //character (unicode)
      let a1 = 'a';
-     println!("a1 is {:?}", a1);
+     let face = '\u{1F600}';
+     println!("a1 is {:?}, face is {:?}", a1, face);
 }
