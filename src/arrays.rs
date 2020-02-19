@@ -1,7 +1,9 @@
 
+use std::mem;
+
 //length is fixed where elements are of the same data types
 pub fn run() {
-    let mut numbers: [i32; 5] =  [1,2,3,4,5];
+    let mut numbers: [i32; 4] =  [1,2,3,4];
 
     println!("numbers is {:?}", numbers);
 
@@ -15,6 +17,6 @@ pub fn run() {
     println!("array length is {}", numbers.len());
 
     //arrays are stacked allocated
-    println!("This numbers array occupies {} bytes", std::mem::size_of_val(&numbers));
+    println!("This numbers array occupies {} bytes", mem::size_of_val(&numbers));
 
 }
