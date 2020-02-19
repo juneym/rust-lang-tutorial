@@ -25,5 +25,8 @@ fn main() {
     //Placeholder for debug trait  - sample tuple
     println!("{:?}", (12, true, "hello"));
 
+    //Basic Math
+    println!("10 + 10 equals {}", 10 + 10);
+
 
 }
