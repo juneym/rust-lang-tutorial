@@ -12,4 +12,7 @@ fn main() {
 
     //named arguments
     println!("{name} likes to play {activity}", name = "John", activity = "Soccer");
+
+    //placeholder traits
+    println!("Binary: {:b} Hexadecimal: {:x} Octal: {:o}", 10, 10, 10);
 }
