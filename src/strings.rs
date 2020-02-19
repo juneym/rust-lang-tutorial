@@ -33,4 +33,15 @@ pub fn run()
     for word in hello.split_whitespace() {
         println!("{}", word);
     }
+
+
+    //Strings with capacity
+    let mut s = String::with_capacity(10);
+    s.push('a');
+    s.push('b');
+
+    //assertion testing
+    assert_eq!(2, s.len());
+    
+    println!("s is {}", s);
 }
