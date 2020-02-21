@@ -5,6 +5,7 @@ mod strings;
 mod tuples;
 mod arrays;
 mod vectors;
+mod conditionals;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -53,4 +54,7 @@ fn main() {
 
     //vectors
     vectors::run();
+
+    //conditionals
+    conditionals::run();
 }
