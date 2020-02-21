@@ -11,6 +11,7 @@ mod functions;
 mod pointers;
 mod structs;
 mod enums;
+mod cli;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -77,4 +78,7 @@ fn main() {
 
     //enums
     enums::run();
+
+    //cli
+    cli::run();
 }
