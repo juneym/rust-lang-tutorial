@@ -10,6 +10,7 @@ mod loops;
 mod functions;
 mod pointers;
 mod structs;
+mod enums;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -73,4 +74,7 @@ fn main() {
 
     //structs
     structs::run();
+
+    //enums
+    enums::run();
 }
