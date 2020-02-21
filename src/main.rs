@@ -4,6 +4,7 @@ mod types;
 mod strings;
 mod tuples;
 mod arrays;
+mod vectors;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -50,4 +51,6 @@ fn main() {
     //arrays
     arrays::run();
 
+    //vectors
+    vectors::run();
 }
