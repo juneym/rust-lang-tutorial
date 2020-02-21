@@ -9,6 +9,7 @@ mod conditionals;
 mod loops;
 mod functions;
 mod pointers;
+mod structs;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -69,4 +70,7 @@ fn main() {
 
     //pointers
     pointers::run();
+
+    //structs
+    structs::run();
 }
