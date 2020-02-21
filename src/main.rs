@@ -8,6 +8,7 @@ mod vectors;
 mod conditionals;
 mod loops;
 mod functions;
+mod pointers;
 
 fn main() {
     println!("Hello, world from main.rs");
@@ -65,4 +66,7 @@ fn main() {
 
     //functions
     functions::run();
+
+    //pointers
+    pointers::run();
 }
